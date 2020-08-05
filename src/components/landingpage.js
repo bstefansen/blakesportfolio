@@ -12,12 +12,13 @@ class Landing extends Component {
               alt="avatar"
               className="avatar-img"
             />
+            {/*TODO <div>*Light Bar</div>*/}
             <div className="banner-text">
-              <h1>Full Stack Web Developer</h1>
+              <h1>Jr Software Developer</h1>
 
               <hr/>
 
-              <p>HTML/CSS | Bootstrap | JavaScript | React | NodeJS | Express | MongoDB</p>
+              <p>Python • JavaScript • HTML/CSS • Bootstrap • React • NodeJS • Express • MongoDB • SQL • GIS</p>
             </div>
           </Cell>
         </Grid>
