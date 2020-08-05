@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
+import { Grid, Cell, ProgressBar } from 'react-mdl';
 
 class Landing extends Component {
   render() {
@@ -12,13 +12,30 @@ class Landing extends Component {
               alt="avatar"
               className="avatar-img"
             />
-            {/*TODO <div>*Light Bar</div>*/}
             <div className="banner-text">
               <h1>Jr Software Developer</h1>
 
-              <hr/>
+              <ProgressBar indeterminate className="landing-bar"/>
 
-              <p>Python • JavaScript • HTML/CSS • Bootstrap • React • NodeJS • Express • MongoDB • SQL • GIS</p>
+              <p>Python • JavaScript • HTML/CSS • Bootstrap • React • NodeJS • Express • MongoDB • SQL • GIS • Azure</p>
+
+              <div className="social-links">
+                {/* Linkedin */}
+                <a rel="noopener noreferreer" target="_blank">
+                  <i className="fa fa-linkedin-square" aria-hidden="true" />
+                </a>
+
+                {/* Email */}
+                <a rel="noopener noreferreer" target="_blank">
+                  <i className="fa fa-envelope-square" aria-hidden="true" />
+                </a>
+
+                {/* GitHub */}
+                <a rel="noopener noreferreer" target="_blank">
+                  <i className="fa fa-github-square" aria-hidden="true" />
+                </a>
+                
+              </div>
             </div>
           </Cell>
         </Grid>

@@ -32,9 +32,8 @@
   font-weight: bold;
   color: white;
 }
-.banner-text hr {
-  border-top: dotted 5px white;
-  width: 50%;
+.landing-bar {
+  width: 100%;
   margin: auto;
 }
 .banner-text p {
