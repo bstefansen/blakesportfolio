@@ -61,33 +61,25 @@ class Contact extends Component {
         <form 
           action="https://formspree.io/xpzybelv" 
           method="POST"
-     
           >
-          <input type="text" name="text"></input>
           <Textfield
-            onChange={this.changeEmail}
-            value={this.state.email}
             label="Your email..."
             style={{width: '100%'}}
             name="email"
-            type="text"
+            type="email"
           />
           <br/>
           <Textfield
-            onChange={this.changeMessage}
-            value={this.state.message}
             label="Your message..."
             style={{width: '100%'}}
+            rows={4}
+            resize="none"
             name="message"
             type="text"
           />
           <br/>
           <Button type="submit" raised colored ripple onClick={this.handleSubmit}>Button</Button>
         </form>
-        <br/><br/>
-        <div style={{fontWeight: "bold"}}>
-          {this.state.submit}
-        </div>
       </div>
       
     )
