@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell, ProgressBar } from 'react-mdl';
+import pdfFile from './resume.pdf';
 
 class Landing extends Component {
   render() {
@@ -33,6 +34,11 @@ class Landing extends Component {
                 {/* GitHub */}
                 <a href="https://github.com/bstefansen" rel="noopener noreferreer" target="_blank">
                   <i className="fa fa-github-square" aria-hidden="true" />
+                </a>
+
+                {/* GitHub */}
+                <a href={pdfFile} rel="noopener noreferreer" target="_blank">
+                  <i className="fa fa-pencil-square-o" aria-hidden="true" />
                 </a>
                 
               </div>

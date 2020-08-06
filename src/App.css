@@ -51,7 +51,7 @@
 .social-links i {
   color: white;
   font-size: 5em;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   transition: 0.25s;
 }
 .social-links i:hover {
@@ -73,3 +73,9 @@
 
 }
 
+/* Resume Page */
+.resume-right-col {
+  background: #27221f;
+  color: white;
+  padding: 2em;
+}
