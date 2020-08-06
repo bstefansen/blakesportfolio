@@ -33,7 +33,6 @@
   color: white;
 }
 .landing-bar {
-  width: 100%;
   margin: auto;
 }
 .banner-text p {
@@ -43,3 +42,54 @@
   width: 80%;
   margin: auto;
 }
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding-bottom: 10px;
+  transition: 0.25s;
+}
+.social-links i:hover {
+  transform: scale(1.1);
+}
+
+/* Projects Page*/
+.card-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* Contacts Page */
+#contact-form {
+  width: 50%;
+  margin: auto;
+  background-color: rgba(0, 0, 0, .7);
+  padding: 1em;
+}
+#name-email {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.25em;
+}
+#name-email > input, #name-email > input, #text-area {
+  padding: 10px;
+}
+#text-area {
+  margin-top: 0.25em;
+  width: 100%;
+}
+#contact-form-button {
+  width: 100%;
+  background-color: white;
+  border: solid 2px white;
+}
+

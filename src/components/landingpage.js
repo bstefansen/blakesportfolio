@@ -21,17 +21,17 @@ class Landing extends Component {
 
               <div className="social-links">
                 {/* Linkedin */}
-                <a rel="noopener noreferreer" target="_blank">
+                <a href="https://www.linkedin.com/in/blake-stefansen/" rel="noopener noreferreer" target="_blank">
                   <i className="fa fa-linkedin-square" aria-hidden="true" />
                 </a>
 
                 {/* Email */}
-                <a rel="noopener noreferreer" target="_blank">
+                <a href="mailto:bstefansen11@gmail.com" rel="noopener noreferreer" target="_blank">
                   <i className="fa fa-envelope-square" aria-hidden="true" />
                 </a>
 
                 {/* GitHub */}
-                <a rel="noopener noreferreer" target="_blank">
+                <a href="https://github.com/bstefansen" rel="noopener noreferreer" target="_blank">
                   <i className="fa fa-github-square" aria-hidden="true" />
                 </a>
                 
