@@ -77,6 +77,10 @@
   color: white;
   padding: 2em;
 }
+.resume-left-col {
+  text-align: center;
+  padding: 2em;
+}
 .react-pdf__Page__canvas {
   width: 100%;
   margin: auto;
