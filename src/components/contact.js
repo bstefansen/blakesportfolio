@@ -1,18 +1,15 @@
 import React, { Component } from 'react';
+import { Grid, Cell } from 'react-mdl';
 
 class Contact extends Component {
   render() {
     return(
       <div>
-        <br/><br/>
-        <form id="contact-form" method="POST" action="https://formspree.io/mzbjoyew">
-          <div id="name-email">
-            <input type="text" name="name" placeholder="Your name" required />
-            <input type="email" name="email" placeholder="Your email" required />
-          </div>
-          <textarea id="text-area" name="message" placeholder="Your message" rows="3" style={{resize: "none"}} required></textarea>
-          <input id="contact-form-button" type="submit" />
-        </form>
+        <Grid className="contact-grid">
+          <Cell col={12}>
+            <h1>Contact</h1>
+          </Cell>
+        </Grid>
       </div>
       
     )

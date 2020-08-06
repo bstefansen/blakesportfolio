@@ -69,27 +69,7 @@
 }
 
 /* Contacts Page */
-#contact-form {
-  width: 50%;
-  margin: auto;
-  background-color: rgba(0, 0, 0, .7);
-  padding: 1em;
-}
-#name-email {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.25em;
-}
-#name-email > input, #name-email > input, #text-area {
-  padding: 10px;
-}
-#text-area {
-  margin-top: 0.25em;
-  width: 100%;
-}
-#contact-form-button {
-  width: 100%;
-  background-color: white;
-  border: solid 2px white;
+.contact-grid {
+
 }
 
