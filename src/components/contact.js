@@ -72,7 +72,7 @@ class Contact extends Component {
           <Textfield
             label="Your message..."
             style={{width: '100%'}}
-            rows={4}
+            rows={2}
             resize="none"
             name="message"
             type="text"
