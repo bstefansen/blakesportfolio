@@ -18,9 +18,6 @@ class Projects extends Component {
                 <Button colored href="https://github.com/bstefansen/graphql-library" rel="noopener noreferreer" target="_blank">GitHub</Button>
                 <Button colored href="https://stefansen-graphql-library.herokuapp.com/" rel="noopener noreferreer" target="_blank">Live Demo</Button>
             </CardActions>
-            <CardMenu style={{color: 'black'}}>
-                <IconButton name="share" />
-            </CardMenu>
           </Card>
 
           {/* WordPress Blog */}
@@ -33,9 +30,6 @@ class Projects extends Component {
                 <Button colored href="https://github.com/bstefansen/getsufficient" rel="noopener noreferreer" target="_blank">GitHub</Button>
                 <Button colored href="https://getsufficient.com/" rel="noopener noreferreer" target="_blank">Live Demo</Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-                <IconButton name="share" />
-            </CardMenu>
           </Card>
 
           {/* Choropleth Map */}
@@ -48,9 +42,6 @@ class Projects extends Component {
                 <Button colored href="https://github.com/bstefansen/getsufficient" rel="noopener noreferreer" target="_blank">GitHub</Button>
                 <Button colored href="https://getsufficient.com/" rel="noopener noreferreer" target="_blank">Live Demo</Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-                <IconButton name="share" />
-            </CardMenu>
           </Card>
 
           {/* Python Sea Level Predictor */}
@@ -63,9 +54,6 @@ class Projects extends Component {
                 <Button colored href="https://github.com/bstefansen/sea-level-predictor" rel="noopener noreferreer" target="_blank">GitHub</Button>
                 <Button colored href="https://github.com/bstefansen/sea-level-predictor/blob/master/sea_level_plot.png" rel="noopener noreferreer" target="_blank">Live Demo</Button>
             </CardActions>
-            <CardMenu style={{color: 'black'}}>
-                <IconButton name="share" />
-            </CardMenu>
           </Card>
 
           {/* Florida Web App */}
@@ -78,9 +66,6 @@ class Projects extends Component {
                 <Button colored href="https://arcg.is/0CuyuD" rel="noopener noreferreer" target="_blank">GitHub</Button>
                 <Button colored href="https://bstefansen.maps.arcgis.com/apps/webappviewer/index.html?id=a9b83f7e0f58477dad836126c6c43ae5" rel="noopener noreferreer" target="_blank">Live Demo</Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-                <IconButton name="share" />
-            </CardMenu>
           </Card>
 
           {/* Weather App */}
@@ -93,9 +78,6 @@ class Projects extends Component {
                 <Button colored href="https://github.com/bstefansen/weather-app" rel="noopener noreferreer" target="_blank">GitHub</Button>
                 <Button colored href="https://bstefansen.github.io/weather-app/" rel="noopener noreferreer" target="_blank">Live Demo</Button>
             </CardActions>
-            <CardMenu style={{color: 'white'}}>
-                <IconButton name="share" />
-            </CardMenu>
           </Card>
 
           {/* GIS Portfolio */}
@@ -108,9 +90,6 @@ class Projects extends Component {
                 <Button colored href="https://github.com/GIS-Portfolio" rel="noopener noreferreer" target="_blank">GitHub</Button>
                 <Button colored href="https://drive.google.com/file/d/1EE_NjqTQosZrRRbuuTO65hPTdxruzQIj/view" rel="noopener noreferreer" target="_blank">Live Demo</Button>
             </CardActions>
-            <CardMenu style={{color: 'white'}}>
-                <IconButton name="share" />
-            </CardMenu>
           </Card>
 
           {/* Zonal Stats Calculator */}
@@ -123,9 +102,6 @@ class Projects extends Component {
                 <Button colored href="https://github.com/bstefansen/ZonalStatisticsCalculator" rel="noopener noreferreer" target="_blank">GitHub</Button>
                 <Button colored href="https://docs.google.com/presentation/d/1-ZbuHjjaAfntVAjgFVXOMoflJz-GJLPOgdreMDI8mX0/edit?usp=sharing" rel="noopener noreferreer" target="_blank">Live Demo</Button>
             </CardActions>
-            <CardMenu style={{color: 'white'}}>
-                <IconButton name="share" />
-            </CardMenu>
           </Card>
 
           {/* Pomodoro Clock */}
@@ -138,9 +114,6 @@ class Projects extends Component {
                 <Button colored href="https://github.com/bstefansen/PomodoroClock" rel="noopener noreferreer" target="_blank">GitHub</Button>
                 <Button colored href="https://bstefansen.github.io/PomodoroClock/" rel="noopener noreferreer" target="_blank">Live Demo</Button>
             </CardActions>
-            <CardMenu style={{color: 'white'}}>
-                <IconButton name="share" />
-            </CardMenu>
           </Card>
         </div>
       </div>

@@ -36,7 +36,7 @@ class Landing extends Component {
                   <i className="fa fa-github-square" aria-hidden="true" />
                 </a>
 
-                {/* GitHub */}
+                {/* Resume */}
                 <a href={pdfFile} rel="noopener noreferreer" target="_blank">
                   <i className="fa fa-pencil-square-o" aria-hidden="true" />
                 </a>
