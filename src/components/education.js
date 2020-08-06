@@ -2,7 +2,6 @@ import React, { Component, useState } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
 import { Grid, Cell, Button } from 'react-mdl';
 import pdfFile from './resume.pdf';
-import 'react-pdf/dist/Page/AnnotationLayer.css';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 class Education extends Component {

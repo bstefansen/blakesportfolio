@@ -68,11 +68,6 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-/* Contacts Page */
-.contact-grid {
-
-}
-
 /* Resume Page */
 .resume-right-col {
   background: #27221f;
@@ -82,4 +77,12 @@
 .react-pdf__Page__canvas {
   width: 100%;
   margin: auto;
+}
+
+/* Contacts Page */
+.contact-form {
+  width: 40%;
+  margin: auto;
+  margin-top: 5em;
+  text-align: center;
 }

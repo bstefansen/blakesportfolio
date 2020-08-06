@@ -23,9 +23,6 @@ class Resume extends Component {
             <hr style={{borderTop: '3px solid #27221f', width: '50%'}} />
             <p>I'm a recent University of Florida Cum Laude Geoscience Graduate with a passion for technology and the natural world</p>
             <hr style={{borderTop: '3px solid #27221f', width: '50%'}} />
-            <h5>Email</h5>
-            <p>bstefansen11@gmail.com</p>
-            
             <h5>Resume</h5>
             <a href={pdfFile} rel="noopener noreferreer" target="_blank">PDF Version</a>
             <hr style={{borderTop: '3px solid #27221f', width: '50%'}} />
