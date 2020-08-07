@@ -29,7 +29,7 @@ class Education extends Component {
 
   render() {
     return(
-      <div >
+      <div>
         <Grid style={{textAlign: "center", width: "50%"}}>
           <Cell col={4}>
             <Button raised ripple style={{backgroundColor: "white"}} onClick={this.updatePageOne}>

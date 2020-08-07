@@ -78,7 +78,7 @@ class Contact extends Component {
             type="text"
           />
           <br/>
-          <Button type="submit" raised colored ripple onClick={this.handleSubmit}>Button</Button>
+          <Button type="submit" raised colored ripple onClick={this.handleSubmit}>Submit</Button>
         </form>
       </div>
       
