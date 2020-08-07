@@ -89,6 +89,10 @@
   margin: auto;
   margin-top: 5em;
   text-align: center;
+
+}
+.contact-form h2 {
+  font-size: 3em;
 }
 
 /* media queries*/
@@ -106,5 +110,8 @@
   }
   .social-links i {
     font-size: 3em;
+  }
+  .contact-form h2 {
+    font-size: 2em;
   }
 }
