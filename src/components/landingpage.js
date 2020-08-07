@@ -27,7 +27,7 @@ class Landing extends Component {
                 </a>
 
                 {/* Email */}
-                <a href="mailto:bstefansen11@gmail.com" rel="noopener noreferreer" target="_blank">
+                <a href="mailto:bstefansen11@gmail.com">
                   <i className="fa fa-envelope-square" aria-hidden="true" />
                 </a>
 
