@@ -39,8 +39,8 @@ class Projects extends Component {
               A choropleth web app of the United States using D3.js
             </CardText>
             <CardActions border className="card-buttons">
-                <Button colored href="https://github.com/bstefansen/getsufficient" rel="noopener noreferreer" target="_blank">GitHub</Button>
-                <Button colored href="https://getsufficient.com/" rel="noopener noreferreer" target="_blank">Live Demo</Button>
+                <Button colored href="https://github.com/bstefansen/choropleth-map" rel="noopener noreferreer" target="_blank">GitHub</Button>
+                <Button colored href="https://bstefansen.github.io/choropleth-map/" rel="noopener noreferreer" target="_blank">Live Demo</Button>
             </CardActions>
           </Card>
 
