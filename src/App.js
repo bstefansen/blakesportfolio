@@ -10,18 +10,18 @@ function App() {
       <Layout >
         <Header className="header-color" title="Blake Stefansen" scroll>
             <Navigation style={{fontSize: "150%"}}>
-              <Link to="/myportfoliosite/">Home</Link>
-              <Link to="/myportfoliosite/resume">Resume</Link>
-              <Link to="/myportfoliosite/projects">Projects</Link>
-              <Link to="/myportfoliosite/contact">Contact</Link>
+              <Link to="/">Home</Link>
+              <Link to="/resume">Resume</Link>
+              <Link to="/projects">Projects</Link>
+              <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
         <Drawer title="Blake Stefansen">
             <Navigation>
-              <Link to="/myportfoliosite/">Home</Link>
-              <Link to="/myportfoliosite/resume">Resume</Link>
-              <Link to="/myportfoliosite/projects">Projects</Link>
-              <Link to="/myportfoliosite/contact">Contact</Link>
+              <Link to="/">Home</Link>
+              <Link to="/resume">Resume</Link>
+              <Link to="/projects">Projects</Link>
+              <Link to="/contact">Contact</Link>
             </Navigation>
         </Drawer>
         <Content>
