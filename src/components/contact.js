@@ -70,6 +70,7 @@ class Contact extends Component {
             style={{width: '100%'}}
             name="email"
             type="email"
+            required
           />
           <br/>
           <Textfield
