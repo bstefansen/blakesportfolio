@@ -48,7 +48,7 @@ class Education extends Component {
         <Document 
           file={pdfFile}
         >
-          <Page pageNumber={this.state.page}/>
+          <Page pageNumber={this.state.page} className="resume-pdf" scale={1} />
         </Document>
       </div>
     )

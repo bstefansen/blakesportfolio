@@ -70,6 +70,7 @@
 }
 
 /* Resume Page */
+
 .resume-right-col {
   background: #27221f;
   color: white;
@@ -83,6 +84,9 @@
 .react-pdf__Page__canvas {
   width: 100%;
   margin: auto;
+}
+.resume-pdf {
+  
 }
 
 /* Contacts Page */
@@ -116,6 +120,11 @@
 @media (max-width: 1200px) {
   .projects-grid {
     grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 1050px) {
+  .resume-right-col {
+    display: none;
   }
 }
 @media (max-width: 650px) {
