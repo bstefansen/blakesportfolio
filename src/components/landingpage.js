@@ -5,7 +5,7 @@ import pdfFile from './resume.pdf';
 class Landing extends Component {
   render() {
     return(
-      <div>
+      <div className="landing-div">
         <Grid className="landing-grid">
           <Cell col={12}>
             <img 
