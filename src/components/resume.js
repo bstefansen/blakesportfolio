@@ -7,7 +7,7 @@ class Resume extends Component {
   render() {
     return(
       <div>
-        <Grid>
+        <Grid className="resume-grid">
           <Cell className="resume-left-col" col={4}>
             <div style={{textAlign: 'center'}}>
               <img 
@@ -20,12 +20,12 @@ class Resume extends Component {
 
             <h2 style={{paddingTop: '1em'}}>Blake Stefansen</h2>
             <h4 style={{color: 'grey'}}>Jr Software Developer</h4>
-            <hr style={{borderTop: '3px solid #27221f', width: '50%', margin: "auto", marginBottom: "1em"}} />
+            <hr style={{borderTop: '3px solid #27221f', width: '80%', margin: "auto", marginBottom: "1em"}} />
             <p >I'm a recent University of Florida Cum Laude Geoscience Graduate with a passion for technology and the natural world</p>
             <hr style={{borderTop: '3px solid #27221f', width: '50%', margin: "auto", marginBottom: "1em"}} />
             <h5>Resume</h5>
             <a href={pdfFile} rel="noopener noreferreer" target="_blank">PDF Version</a>
-            <hr style={{borderTop: '3px solid #27221f', width: '50%', margin: "auto", marginBottom: "1em", marginTop: "1em"}} />
+            <hr style={{borderTop: '3px solid #27221f', width: '50%', margin: "auto", marginBottom: "1em", marginTop: "2em"}} />
           </Cell>
           <Cell className="resume-right-col" col={8}>
 

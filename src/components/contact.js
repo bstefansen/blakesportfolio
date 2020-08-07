@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Cell, Textfield, Button } from 'react-mdl';
+import { Grid, Cell, Textfield, Button, ProgressBar } from 'react-mdl';
 
 class Contact extends Component {
   constructor(props) {
@@ -57,7 +57,10 @@ class Contact extends Component {
   render() {
     return(
       <div className="contact-form">
-        <h2 style={{fontWeight: "bold", marginBottom: "2em"}}>Leave a message</h2>
+        <h2 style={{fontWeight: "bold"}}>Leave a message</h2>
+
+        <div className="color-bar"></div>
+
         <form 
           action="https://formspree.io/xpzybelv" 
           method="POST"

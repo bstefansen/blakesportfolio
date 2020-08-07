@@ -73,6 +73,7 @@
   background: #27221f;
   color: white;
   padding: 2em;
+  border-radius: 10px;
 }
 .resume-left-col {
   text-align: center;
@@ -85,14 +86,29 @@
 
 /* Contacts Page */
 .contact-form {
-  width: 30%;
+  width: 50%;
   margin: auto;
   margin-top: 5em;
   text-align: center;
+  padding: 2em;
 
+  border-radius: 3em;
 }
 .contact-form h2 {
   font-size: 3em;
+}
+.color-bar {
+  height: 6px;
+  animation: d 4s linear infinite;
+  background-repeat: repeat-x;
+  background-size: 133vw 4px;
+  margin-bottom: 5em;
+}
+@keyframes d {
+  0%   {background-color: #29bfff;}
+  33%  {background-color: #a231ff;}
+  66%  {background-color: #0deccd;}
+  100%  {background-color: #29bfff;}
 }
 
 /* media queries*/

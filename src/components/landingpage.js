@@ -16,7 +16,7 @@ class Landing extends Component {
             <div className="banner-text">
               <h1>Jr Software Developer</h1>
 
-              <ProgressBar indeterminate className="landing-bar"/>
+              <div className="color-bar" style={{marginBottom: "1em"}}></div>
 
               <p>Python • JavaScript • HTML/CSS • Bootstrap • React • NodeJS • Express • MongoDB • SQL • GIS • Azure</p>
 
