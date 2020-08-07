@@ -13,6 +13,7 @@ class Landing extends Component {
               alt="avatar"
               className="avatar-img"
             />
+            
             <div className="banner-text">
               <h1>Jr Software Developer</h1>
 

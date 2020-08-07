@@ -59,14 +59,12 @@ class Contact extends Component {
       <div className="contact-form">
         <h2 style={{fontWeight: "bold"}}>Leave a message</h2>
 
-        <div className="color-bar"></div>
-
         <form 
           action="https://formspree.io/xpzybelv" 
           method="POST"
           >
           <Textfield
-            label="Your email..."
+            label="*Your email..."
             style={{width: '100%'}}
             name="email"
             type="email"
