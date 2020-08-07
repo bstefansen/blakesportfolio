@@ -4,11 +4,56 @@ import pdfFile from './resume.pdf';
 import Education from './education';
 
 class Resume extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      columnLeft: 4,
+      columnRight: 8,
+      resumeScale: 1
+    }
+    this.handleResize = this.handleResize.bind(this);
+  }
+
+  componentDidMount() {
+    if (window.innerWidth <= 1050) {
+      this.setState({
+        columnLeft: 12,
+        columnRight: 12,
+        resumeScale: 0.6
+      });
+    } else {
+      this.setState({
+        columnLeft: 4,
+        columnRight: 8,
+        resumeScale: 1
+      });
+    }
+  }
+
+  handleResize() {
+    if (window.innerWidth <= 1050) {
+      this.setState({
+        columnLeft: 12,
+        columnRight: 12,
+        resumeScale: 0.6
+      });
+    } else {
+      this.setState({
+        columnLeft: 4,
+        columnRight: 8,
+        resumeScale: 1
+      });
+    }
+  }
+
   render() {
+
+    window.addEventListener('resize', this.handleResize);
+
     return(
       <div>
         <Grid className="resume-grid">
-          <Cell className="resume-left-col" col={4}>
+          <Cell className="resume-left-col" col={this.state.columnLeft}>
             <div style={{textAlign: 'center'}}>
               <img 
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQkdokSVm6ytjniDQmDx1sVmRiMsgoWyqcIdw&usqp=CAU"
@@ -27,9 +72,9 @@ class Resume extends Component {
             <a href={pdfFile} rel="noopener noreferreer" target="_blank">PDF Version</a>
             <hr style={{borderTop: '3px solid #27221f', width: '50%', margin: "auto", marginBottom: "1em", marginTop: "2em"}} />
           </Cell>
-          <Cell className="resume-right-col" col={8}>
+          <Cell className="resume-right-col" col={this.state.columnRight}>
 
-            <Education />
+            <Education scaleNum={this.state.resumeScale} />
 
           </Cell>
         </Grid>
