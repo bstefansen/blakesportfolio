@@ -35,11 +35,6 @@ class Landing extends Component {
                 <a href="https://github.com/bstefansen" rel="noopener noreferreer" target="_blank">
                   <i className="fa fa-github-square" aria-hidden="true" />
                 </a>
-
-                {/* Resume */}
-                <a href={pdfFile} rel="noopener noreferreer" target="_blank">
-                  <i className="fa fa-pencil-square-o" aria-hidden="true" />
-                </a>
                 
               </div>
             </div>
