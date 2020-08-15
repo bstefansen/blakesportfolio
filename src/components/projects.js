@@ -26,8 +26,7 @@ class Projects extends Component {
             <CardText>
               An online media WordPress blog about self-sufficiency and sustainability
             </CardText>
-            <CardActions border className="card-buttons">
-                <Button colored href="https://github.com/bstefansen/getsufficient" rel="noopener noreferreer" target="_blank">GitHub</Button>
+            <CardActions border style={{display: "grid", displayTemplateColumns: "1fr"}}>
                 <Button colored href="https://getsufficient.com/" rel="noopener noreferreer" target="_blank">Live Demo</Button>
             </CardActions>
           </Card>
