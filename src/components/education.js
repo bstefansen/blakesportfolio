@@ -30,7 +30,7 @@ class Education extends Component {
   render() {
     return(
       <div>
-        <Grid style={{textAlign: "center", width: "50%"}}>
+        <Grid style={{textAlign: "center", width: "100%", maxWidth: "59em"}}>
           <Cell col={4}>
             <Button raised ripple style={{backgroundColor: "white"}} onClick={this.updatePageOne}>
               <i className="fa fa-arrow-left" aria-hidden="true" />

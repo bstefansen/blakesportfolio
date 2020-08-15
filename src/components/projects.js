@@ -48,7 +48,7 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
             <CardTitle style={{color: 'black', height: '176px', background: 'url(https://bstefansen.github.io/Portfolio/images/sea_level_plot.png) top / cover'}}></CardTitle>
             <CardText>
-              A Python app that calculates sea level predictions from a given dataset
+              A Python script that calculates sea level predictions from a given dataset
             </CardText>
             <CardActions border className="card-buttons">
                 <Button colored href="https://github.com/bstefansen/sea-level-predictor" rel="noopener noreferreer" target="_blank">GitHub</Button>
@@ -72,7 +72,7 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
             <CardTitle style={{color: 'black', height: '176px', background: 'url(https://bstefansen.github.io/Portfolio/images/weather.JPG) top / cover'}}></CardTitle>
             <CardText>
-              A web app that fetches API weather data from the user's current location
+              A web app that fetches API weather data for the user's current location
             </CardText>
             <CardActions border className="card-buttons">
                 <Button colored href="https://github.com/bstefansen/weather-app" rel="noopener noreferreer" target="_blank">GitHub</Button>
@@ -144,7 +144,7 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
             <CardTitle style={{color: 'black', height: '176px', background: 'url(https://github.com/bstefansen/medical-data-visualizer/blob/master/catplot.png?raw=true) top / cover'}}></CardTitle>
             <CardText>
-              A Python app that visualizes data statistics for a given set of medical data
+              A Python script that visualizes statistics for a given set of medical data
             </CardText>
             <CardActions border className="card-buttons">
                 <Button colored href="https://github.com/bstefansen/medical-data-visualizer" rel="noopener noreferreer" target="_blank">GitHub</Button>
