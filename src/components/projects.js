@@ -52,15 +52,15 @@ class Projects extends Component {
             </CardText>
             <CardActions border className="card-buttons">
                 <Button colored href="https://github.com/bstefansen/sea-level-predictor" rel="noopener noreferreer" target="_blank">GitHub</Button>
-                <Button colored href="https://github.com/bstefansen/sea-level-predictor/blob/master/sea_level_plot.png" rel="noopener noreferreer" target="_blank">Live Demo</Button>
+                <Button colored href="https://github.com/bstefansen/sea-level-predictor/blob/master/sea_level_plot.png" rel="noopener noreferreer" target="_blank">Image</Button>
             </CardActions>
           </Card>
 
           {/* Florida Web App */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
-            <CardTitle style={{color: 'white', height: '176px', background: 'url(https://bstefansen.github.io/Portfolio/images/floridaWebApp.JPG) top / cover'}}></CardTitle>
+            <CardTitle style={{color: 'white', height: '176px', background: 'url(https://bstefansen.github.io/Portfolio/images/floridaWebApp.JPG) top / cover'}}>Esri Web App</CardTitle>
             <CardText>
-              An Esri web map showcasing Florida's state parks and sinkholes
+              An Esri web app showcasing Florida's state parks and sinkholes
             </CardText>
             <CardActions border className="card-buttons">
                 <Button colored href="https://arcg.is/0CuyuD" rel="noopener noreferreer" target="_blank">GitHub</Button>
@@ -88,7 +88,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border className="card-buttons">
                 <Button colored href="https://github.com/GIS-Portfolio" rel="noopener noreferreer" target="_blank">GitHub</Button>
-                <Button colored href="https://drive.google.com/file/d/1EE_NjqTQosZrRRbuuTO65hPTdxruzQIj/view" rel="noopener noreferreer" target="_blank">Live Demo</Button>
+                <Button colored href="https://drive.google.com/file/d/1EE_NjqTQosZrRRbuuTO65hPTdxruzQIj/view" rel="noopener noreferreer" target="_blank">Image</Button>
             </CardActions>
           </Card>
 
@@ -100,7 +100,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border className="card-buttons">
                 <Button colored href="https://github.com/bstefansen/ZonalStatisticsCalculator" rel="noopener noreferreer" target="_blank">GitHub</Button>
-                <Button colored href="https://docs.google.com/presentation/d/1-ZbuHjjaAfntVAjgFVXOMoflJz-GJLPOgdreMDI8mX0/edit?usp=sharing" rel="noopener noreferreer" target="_blank">Live Demo</Button>
+                <Button colored href="https://docs.google.com/presentation/d/1-ZbuHjjaAfntVAjgFVXOMoflJz-GJLPOgdreMDI8mX0/edit?usp=sharing" rel="noopener noreferreer" target="_blank">Tutorial</Button>
             </CardActions>
           </Card>
 
@@ -113,6 +113,42 @@ class Projects extends Component {
             <CardActions border className="card-buttons">
                 <Button colored href="https://github.com/bstefansen/PomodoroClock" rel="noopener noreferreer" target="_blank">GitHub</Button>
                 <Button colored href="https://bstefansen.github.io/PomodoroClock/" rel="noopener noreferreer" target="_blank">Live Demo</Button>
+            </CardActions>
+          </Card>
+
+          {/* DEM Map */}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
+            <CardTitle style={{color: 'white', height: '176px', background: 'url(https://bstefansen.github.io/Portfolio/images/leaflet.JPG) top / cover'}}>DEM Map</CardTitle>
+            <CardText>
+              A digital elevation map of Morocco using the Google API and Leaflet.js
+            </CardText>
+            <CardActions border className="card-buttons">
+                <Button colored href="https://github.com/bstefansen/DarkTerrain" rel="noopener noreferreer" target="_blank">GitHub</Button>
+                <Button colored href="https://bstefansen.github.io/DarkTerrain/" rel="noopener noreferreer" target="_blank">Live Demo</Button>
+            </CardActions>
+          </Card>
+
+          {/* JavaScript Calculator */}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
+            <CardTitle style={{color: 'black', height: '176px', background: 'url(https://bstefansen.github.io/Portfolio/images/JSCalculatorPhoto.JPG) top / cover'}}></CardTitle>
+            <CardText>
+              A web app simulating a four-function calculator using React
+            </CardText>
+            <CardActions border className="card-buttons">
+                <Button colored href="https://github.com/bstefansen/JavaScriptCalculator" rel="noopener noreferreer" target="_blank">GitHub</Button>
+                <Button colored href="https://bstefansen.github.io/JavaScriptCalculator/" rel="noopener noreferreer" target="_blank">Live Demo</Button>
+            </CardActions>
+          </Card>
+
+          {/* Medical Data Visualizer */}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
+            <CardTitle style={{color: 'black', height: '176px', background: 'url(https://github.com/bstefansen/medical-data-visualizer/blob/master/catplot.png?raw=true) top / cover'}}></CardTitle>
+            <CardText>
+              A Python app that visualizes data statistics for a given set of medical data
+            </CardText>
+            <CardActions border className="card-buttons">
+                <Button colored href="https://github.com/bstefansen/medical-data-visualizer" rel="noopener noreferreer" target="_blank">GitHub</Button>
+                <Button colored href="https://github.com/bstefansen/medical-data-visualizer/blob/master/heatmap.png" rel="noopener noreferreer" target="_blank">Image</Button>
             </CardActions>
           </Card>
         </div>
