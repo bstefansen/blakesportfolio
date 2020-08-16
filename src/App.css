@@ -79,6 +79,19 @@
 .social-links i:hover {
   transform: scale(1.1);
 }
+.color-bar {
+  height: 6px;
+  animation: d 4s linear infinite;
+  background-repeat: repeat-x;
+  background-size: 133vw 4px;
+  margin-bottom: 5em;
+}
+@keyframes d {
+  0%   {background-color: #29bfff;}
+  33%  {background-color: #a231ff;}
+  66%  {background-color: #0deccd;}
+  100%  {background-color: #29bfff;}
+}
 
 /* Projects Page*/
 .card-buttons {
@@ -111,26 +124,13 @@
   width: 50%;
   margin: auto;
   margin-top: 5em;
-  text-align: center;
-  padding: 2em;
-  border-radius: 3em;
+  
+  padding-top: 2em;
 }
 .contact-form h2 {
-  font-size: 3em;
+  font-size: 4em;
   margin-bottom: 2em;
-}
-.color-bar {
-  height: 6px;
-  animation: d 4s linear infinite;
-  background-repeat: repeat-x;
-  background-size: 133vw 4px;
-  margin-bottom: 5em;
-}
-@keyframes d {
-  0%   {background-color: #29bfff;}
-  33%  {background-color: #a231ff;}
-  66%  {background-color: #0deccd;}
-  100%  {background-color: #29bfff;}
+  text-align: center;
 }
 
 /* media queries*/
@@ -152,6 +152,6 @@
     font-size: 3em;
   }
   .contact-form h2 {
-    font-size: 2em;
+    font-size: 3em;
   }
 }
