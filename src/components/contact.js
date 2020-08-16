@@ -44,7 +44,7 @@ class Contact extends Component {
           method="POST"
           >
           <Textfield
-            label="*Your email..."
+            label="Your email..."
             style={{width: '100%'}}
             name="email"
             type="email"
@@ -55,7 +55,6 @@ class Contact extends Component {
             label="Your message..."
             style={{width: '100%'}}
             rows={2}
-            resize="none"
             name="message"
             type="text"
           />
