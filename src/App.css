@@ -24,7 +24,7 @@
 .banner-text {
   background-color: black;
   opacity: .8;
-  width: 65%;
+  width: 68%;
   margin: auto;
   margin-top: 2em;
   border-radius: 10px;
@@ -145,6 +145,13 @@
   }
 }
 @media (max-width: 650px) {
+  .banner-text {
+    width: 78%;
+  }
+  .banner-text h1 {
+    line-height: 10vw;
+    font-size: 5vw;
+  }
   .avatar-img {
     height: 150px;
   }
