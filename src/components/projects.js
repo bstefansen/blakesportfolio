@@ -119,7 +119,7 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
             <CardTitle style={{color: 'white', height: '176px', background: 'url(https://bstefansen.github.io/Portfolio/images/leaflet.JPG) top / cover'}}>DEM Map</CardTitle>
             <CardText>
-              A digital elevation map of Morocco using the Google API and Leaflet.js
+              A digital elevation map of Morocco using the Mapbox API and Leaflet.js
             </CardText>
             <CardActions border className="card-buttons">
                 <Button colored href="https://github.com/bstefansen/DarkTerrain" rel="noopener noreferreer" target="_blank">GitHub</Button>
