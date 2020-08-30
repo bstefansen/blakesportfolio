@@ -68,7 +68,7 @@ class Resume extends Component {
 
             <hr style={{borderTop: '3px solid #27221f', width: '80%', margin: "auto", marginBottom: "1em"}} />
 
-            <p >I'm a recent University of Florida Cum Laude Geoscience Graduate with a passion for technology and the natural world</p>
+            <p >I'm a recent University of Florida cum laude geoscience graduate with demonstrated experience in GIS and software development</p>
 
             <hr style={{borderTop: '3px solid #27221f', width: '50%', margin: "auto", marginBottom: "1em"}} />
 
