@@ -150,6 +150,18 @@ class Projects extends Component {
                 <Button colored href="https://github.com/bstefansen/medical-data-visualizer/blob/master/heatmap.png" rel="noopener noreferreer" target="_blank">Image</Button>
             </CardActions>
           </Card>
+
+          {/* World Map Projections */}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
+            <CardTitle style={{color: 'black', height: '176px', background: 'url(https://github.com/bstefansen/worldMapProjections/raw/master/screenshotNew.JPG) top / cover'}}></CardTitle>
+            <CardText>
+              A web app allowing users to visualize various world map projections
+            </CardText>
+            <CardActions border className="card-buttons">
+                <Button colored href="https://github.com/bstefansen/worldMapProjections" rel="noopener noreferreer" target="_blank">GitHub</Button>
+                <Button colored href="https://bstefansen.github.io/worldMapProjections/" rel="noopener noreferreer" target="_blank">Demo</Button>
+            </CardActions>
+          </Card>
         </div>
       </div>
     
