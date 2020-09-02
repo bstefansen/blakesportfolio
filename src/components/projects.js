@@ -159,7 +159,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border className="card-buttons">
                 <Button colored href="https://github.com/bstefansen/worldMapProjections" rel="noopener noreferreer" target="_blank">GitHub</Button>
-                <Button colored href="https://bstefansen.github.io/worldMapProjections/" rel="noopener noreferreer" target="_blank">Demo</Button>
+                <Button colored href="https://bstefansen.github.io/worldMapProjections/" rel="noopener noreferreer" target="_blank">Live Demo</Button>
             </CardActions>
           </Card>
         </div>
