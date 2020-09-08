@@ -62,7 +62,7 @@ class Projects extends Component {
               An Esri web app showcasing Florida's state parks and sinkholes
             </CardText>
             <CardActions border className="card-buttons">
-                <Button colored href="https://arcg.is/0CuyuD" rel="noopener noreferreer" target="_blank">GitHub</Button>
+                <Button colored href="https://arcg.is/0CuyuD" rel="noopener noreferreer" target="_blank">Overview</Button>
                 <Button colored href="https://bstefansen.maps.arcgis.com/apps/webappviewer/index.html?id=a9b83f7e0f58477dad836126c6c43ae5" rel="noopener noreferreer" target="_blank">Live Demo</Button>
             </CardActions>
           </Card>
