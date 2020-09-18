@@ -163,6 +163,18 @@ class Projects extends Component {
             </CardActions>
           </Card>
 
+          {/* South America Rails
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
+            <CardTitle style={{color: 'black', height: '176px', background: 'url(https://raw.githubusercontent.com/bstefansen/southAmericaRails/master/screenShot.JPG) top / cover'}}></CardTitle>
+            <CardText>
+              A web app showcasing the largest railways in South America
+            </CardText>
+            <CardActions border className="card-buttons">
+                <Button colored href="https://github.com/bstefansen/southAmericaRails" rel="noopener noreferreer" target="_blank">GitHub</Button>
+                <Button colored href="https://bstefansen.github.io/southAmericaRails/" rel="noopener noreferreer" target="_blank">Live Demo</Button>
+            </CardActions>
+          </Card> */}
+
           
         </div>
       </div>
