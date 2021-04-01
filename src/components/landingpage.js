@@ -15,11 +15,11 @@ class Landing extends Component {
             />
             
             <div className="banner-text">
-              <h1>Jr Software Developer</h1>
+              <h1>Blake Stefansen</h1>
 
               <div className="color-bar" style={{marginBottom: "1em"}}></div>
 
-              <p>Python • JavaScript • HTML/CSS • Bootstrap • React • NodeJS • Express • MongoDB • SQL • GIS • Azure</p>
+              <p>Python • JavaScript • HTML/CSS • PostgreSQL • ReactJS • NodeJS • Express • AWS • SQL • GIS • Azure</p>
 
               <div className="social-links">
                 {/* Linkedin */}
