@@ -19,7 +19,7 @@ class Landing extends Component {
 
               <div className="color-bar" style={{marginBottom: "1em"}}></div>
 
-              <p>Python • JavaScript • HTML/CSS • PostgreSQL • ReactJS • NodeJS • Express • AWS • SQL • GIS • Azure</p>
+              <p>Python • JavaScript • HTML/CSS • PostgreSQL • ReactJS • NodeJS • Express • AWS • Bash • GIS • Azure</p>
 
               <div className="social-links">
                 {/* Linkedin */}
